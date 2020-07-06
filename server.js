@@ -11,9 +11,9 @@ const project_folder = 'public';
 app.use(express.static(`${__dirname}/${project_folder}`));
 
 //Test endpoint to see all environment variables from Heroku
-app.get('/params', (req, res) => {
-    res.status(200).json(process.env);
-})
+// app.get('/params', (req, res) => {
+//     res.status(200).json(process.env);
+// })
 
 app.all('/*', function(req, res, next) {
     res.sendFile(`${project_folder}/index.html`, { root: __dirname });
