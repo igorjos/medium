@@ -1,10 +1,6 @@
 {
-  "name": "heroku",
-  "version": "0.0.0",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "scripts": {
-    "start": "node server.js"
-  }
+    "dependencies": {
+        "compression": "^1.7.4",
+        "express": "^4.17.1"
+    }
 }
