@@ -1,0 +1,51 @@
+.app-one-nav
+{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  background-color: #d0d0d0;
+}
+
+.app-one-nav .nav-link
+{
+  color: unset;
+}
+
+.app-one-nav .active_url
+{
+  color: blue;
+}
+
+.app-route-wrapper
+{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  
+}
+
+.products-list
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.products-list .product-box
+{
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+.products-add-new
+{
+  max-width: 480px;
+  padding: 15px;
+  margin: 0 auto;
+}

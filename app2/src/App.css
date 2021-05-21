@@ -1,0 +1,25 @@
+.app-two-nav
+{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  background-color: #d0d0d0;
+}
+
+.app-two-nav .nav-link
+{
+  color: unset;
+}
+
+.app-two-nav .active_url
+{
+  color: blue;
+}
+
+.app-route-wrapper
+{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  
+}

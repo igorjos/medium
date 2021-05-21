@@ -1,0 +1,13 @@
+{
+	"name": "simplenode",
+	"author": {
+		"name": "Igor Joshevski",
+		"url": "https://www.linkedin.com/in/yoshevski/"
+	},
+	"scripts": {
+		"db": "json-server --watch db.json"
+	},
+	"dependencies": {
+		"json-server": "^0.16.3"
+	}
+}
