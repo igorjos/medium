@@ -5,9 +5,10 @@
 		"url": "https://www.linkedin.com/in/yoshevski/"
 	},
 	"scripts": {
-		"db": "json-server --watch db.json"
+		"db": "json-server --watch db.json --static ./public/app2"
 	},
 	"dependencies": {
+		"express": "^4.17.1",
 		"json-server": "^0.16.3"
 	}
 }
