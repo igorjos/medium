@@ -20,6 +20,85 @@
 {
   display: block;
   width: 100%;
+  max-width: 100%; 
+}
+
+.single-order
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.single-order div
+{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.single-order .order-main,
+.single-order .order-shipping,
+.single-order .order-items > div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: calc(50% - 20px);
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.single-order .order-status
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   max-width: 100%;
-  
+}
+
+.single-order .order-items
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.single-order .order-items > div
+{
+  width: 25%;
+  max-width: 25%;
+}
+
+.single-order .order-items > div img
+{
+  max-width: 100%;
+}
+
+.single-order .order-status p
+{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.single-order .order-status .pending
+{
+  background-color: yellow;
+}
+
+.single-order .order-status .approved
+{
+  background-color: greenyellow;
+}
+
+.single-order .order-status .denied
+{
+  background-color: red;
+  color: white;
 }
