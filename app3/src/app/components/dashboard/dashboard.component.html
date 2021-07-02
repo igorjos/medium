@@ -1,1 +1,21 @@
-<p>dashboard works!</p>
+<div>
+	<div class="card">
+		<div class="card-body">
+			<h5 class="card-title">Total Orders</h5>
+			<p class="card-text">{{orders.length}}</p>
+		  </div>
+	</div>
+</div>
+<div>
+	<div class="card">
+		<div class="card-body">
+			<h5 class="card-title">Popular Products</h5>
+			<ul class="card-text">
+				<li class="popular-items" *ngFor="let pop of popular; index as i">
+					<span>{{getProductName(i)}}</span>
+					<span>{{pop}}</span>
+				</li>	
+			</ul>
+		</div>
+	</div>
+</div>

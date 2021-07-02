@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  micro_app_endpoint: 'http://localhost:3000'
+  micro_app_endpoint: 'http://localhost:3000',
+  api_endpoint: 'http://localhost:3000/api'
 };
 
 /*
